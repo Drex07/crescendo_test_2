@@ -1,0 +1,515 @@
+/* 
+html, body {
+    background-color: #ebebeb;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+} */
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.navbar-acme{
+    border-bottom: 22px solid #001254;
+    background-color: white !important;
+    padding: 0px !important;
+}
+.banner-image {
+    background-image: url("/images/banner.png");
+    background-color: #cccccc;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text {
+    margin: 10% 0;
+    color: white;
+}
+
+.bannerText1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: white;
+    line-height: 45px;
+}
+.bannerText2{
+    color: white;
+    font-size: 36px;
+    font-family: Helvetica;
+    font-weight: 100;
+    line-height: 35px;
+}
+.acmeInsightsText1{
+    font-size: 34px;
+    font-family: Helvetica;
+    margin-bottom: 0px;
+    margin-top: 21px;
+}
+.acmeInsightsText2{
+    font-size: 15px;
+    font-family: Helvetica;
+}
+.insightTriangles{
+    width: 102%;
+    margin-top: -76%;
+    margin-left: -1px;
+}
+.insightDiv1{
+    border-bottom: 16px solid #1450d2;
+}
+.insightDiv2{
+    border-bottom: 16px solid #01a49c;
+}
+.insightDiv3{
+    border-bottom: 16px solid #009bfa;
+}
+.insightText1, .insightText2, .insightText3{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    text-align: left;
+    margin-top: -16px;
+    margin-bottom: 0px;
+}
+.insightText1{
+    color: #1450d2;
+}
+.insightText2{
+    color: #01a49c;
+}
+.insightText3{
+    color: #009bfa;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+}
+
+.flex-container > div {
+    flex-shrink: 0;
+    padding: 20px;
+    background: white;
+    width: 366px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.35);
+}
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+}
+.flex-container2 > div {
+    flex-shrink: 0;
+    padding: 10px;
+    background: #1450d2;
+    width: 366px;
+    margin: 10px;
+    color: white;
+    padding-bottom: 0px;
+    margin-top: 26px;
+}
+.blueCorner{
+    width: 115px;
+    margin-left: -10px;
+    margin-top: -32px;
+}
+.blueLayerText1{
+    margin-bottom: 0px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Helvetica;
+    margin: 0px 10px;
+}
+.blueLayerText2{
+    min-height: 45px;
+    font-size: 14px;
+    font-family: Helvetica;
+    margin: 0px 10px;
+}
+.blueButton{
+    color: #fff !important;
+    background-color: #1450d2 !important;
+    border-color: white !important;
+    margin: 0px 10px;
+    margin-top: 15px;
+}
+.ascent{
+    width: 100%;
+    min-height: 50px;
+    margin-top: -33px;
+    margin-left: 15px;
+    margin-bottom: -5px;
+}
+.ascentText{
+    margin-top: 50px;
+    position: relative;
+    text-align: right;
+    color: black;
+    font-weight: 600;
+    margin-bottom: -15px;
+    margin-right: 10px;
+    font-size: 24px;
+    font-family: 'Interstate Black Cond';
+}
+.dateText1{
+    margin-bottom: -12px;
+    font-size: 16px;
+    margin-top: -74px;
+    margin-left: 45px;
+    font-family: 'Interstate Black Cond';
+}
+.dateText2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 42px;
+    /* text-align: center; */
+    font-family: 'Interstate Black Cond';
+}
+
+.navbar-brand img{
+    height: 100px;
+    background: white;
+    padding: 7px;
+}
+
+.logoText1{
+    text-align:center;
+    margin-bottom: 0px;
+    font-family: 'Interstate Black';
+    color: #009bfa;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.logoText2{
+    text-align:center;
+    font-size: 50px;
+    color: #193989;
+    font-family: 'Interstate Black';
+    margin-top: -17px;
+    margin-bottom: -10px;
+}
+
+a.nav-link{
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-top: 57px;
+    color: black !important;
+}
+
+li.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{
+    background-color: #ebebeb !important;
+}
+
+.bottomBanerHeroimage {
+    background-image: url("/images/bottomBanner.png");
+    background-color: #cccccc;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.bottomBanerHerotext {
+    text-align: center;
+    margin: 7% 0;
+    color: white;
+}
+
+.bottomBannerText1{
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.bottomBannerText2{
+    font-family: Helvetica;
+    font-size: 24px;
+    margin: 0px 85px;
+    margin-bottom: 20px;
+}
+
+.contactUsButton{
+    border: 1px solid #ffffff !important;
+    color: white !important;
+    border-radius: 0 !important;
+    padding: 10px 40px !important;
+}
+
+.grayFooter{
+    background: #707070;
+    color: white;
+    font-size: 14px;
+    padding: 40px 0px;
+}
+.grayFooter p{
+    margin-bottom: 0px;
+}
+.grayFooter img{
+    margin: 0px 5px;
+}
+
+.gallery-cell {
+    width: 66%;
+    min-height: 260px;
+    margin-right: 10px;
+}
+
+.socialShareFooter{
+    text-align: right;
+}
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .showInDesktop, .hideInMobile{
+        display: none;
+    }
+    .bottomBannerText2{
+        font-size: 12px;
+        margin: 0px 5px;
+        margin-bottom: 12px;
+    }
+    .navbar-toggler{
+        margin-left: auto;
+    }
+    a.nav-link{
+        margin-top: 0px;
+        text-align: center;
+        background: #ebebeb;
+        font-size: 15px;
+    }
+    li.nav-item{
+        padding: 5px;
+    }
+    .navbar-collapse{
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .bannerText1 {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Helvetica;
+        color: white;
+        line-height: 33px;
+        margin-bottom: 0px;
+    }
+    .bannerText2 {
+        color: white;
+        font-size: 13px;
+        font-family: Helvetica;
+        font-weight: 100;
+        line-height: 2px;
+        margin-top: 14px;
+    }
+    .banner-text {
+        margin: 23% 0;
+        color: white;
+    }
+    .banner-image {
+        background-image: none;
+        background-color: #1a9cf7;
+        min-height: 263px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .insightText1, .insightText2, .insightText3 {
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 22px;
+        text-align: left;
+        margin-top: -16px;
+        margin-bottom: 0px;
+    }
+    .bottomBanerHeroimage {
+        background-image: url(/images/bottomBanner.png);
+        background-color: #cccccc;
+        min-height: 276px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .bottomBanerHerotext {
+        text-align: center;
+        margin: 11% 0;
+        color: white;
+    }
+    .bottomBannerText1 {
+        font-size: 21px;
+        font-family: Helvetica;
+        font-weight: bold;
+        margin-bottom: 41px;
+        margin: 0px 77px;
+        /* margin: 0px 5px; */
+        margin-bottom: 8px;
+    }
+    .socialShareFooter{
+        text-align:left;
+        margin-top: 13px;
+    }
+    .grayFooter {
+        background: #707070;
+        color: white;
+        font-size: 14px;
+        padding: 32px 0px;
+    }
+    .blueButton{
+        padding: 8px 10px!important;
+    }
+    .blueLayerText1 {
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Helvetica;
+        margin: 0px 10px;
+    }
+    .blueLayerText2 {
+        min-height: 45px;
+        font-size: 12px;
+        font-family: Helvetica;
+        margin: 0px 10px;
+    }
+    .ascentText {
+        margin-top: 50px;
+        position: relative;
+        text-align: right;
+        color: black;
+        font-weight: 600;
+        margin-bottom: -15px;
+        margin-right: 10px;
+        font-size: 19px;
+        font-family: 'Interstate Black Cond';
+    }
+    .dateText1 {
+        margin-bottom: -12px;
+        font-size: 13px;
+        margin-top: -54px;
+        margin-left: 31px;
+        font-family: 'Interstate Black Cond';
+    }
+    .dateText2 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-left: 26px;
+        /* text-align: center; */
+        font-family: 'Interstate Black Cond';
+    }
+    .blueCorner {
+        width: 89px;
+        margin-left: -10px;
+        margin-top: -27px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+    .showInMobile{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* .showInMobile{
+        display: none;
+    } */
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* .showInMobile{
+        display: none;
+    } */
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+
+
+
+
+
+
+
+
+/* FONTS */
+
+
+
+@font-face {
+    font-family: 'Interstate Regular';
+    src: url('/fonts/interstate/interstate-regular.woff');
+}
+@font-face {
+    font-family: 'Interstate Black';
+    src: url('/fonts/interstate/interstate-black-cond-58b642507872b.woff');
+}
+@font-face {
+    font-family: 'Interstate Regular';
+    src: url('/fonts/interstate/interstate-regular.woff');
+}
+
+/* @font-face {
+    font-family: Helvetica_Regular;
+    src: url('/fonts/interstate/interstate-regular.woff');
+} */
